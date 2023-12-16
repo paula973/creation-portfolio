@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//creation portfolio/css/style.css">
+    <title>Mon portfolio - Duchene Paula Khadija - developpeuse web junior</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Paula Khadija Duchene</h1>
+        <p>Développeur Web</p>
+        <img src="..//creation portfolio/image/Group 28.svg" alt="image ordinateur">
+    </header>
+
+    <section id="about">
+        <h2>À Propos de Moi</h2>
+        <p>Bonjour à tous ! </p>
+        <p> Je m'appelle Duchene Paula Khadija et je suis passionnée par le mariage créatif du design graphique, du développement web et mobile.<br>
+            En tant que designer graphique, je m'efforce de donner vie à des concepts visuels uniques et percutants.<br>
+            Mon approche artistique allie esthétique et fonctionnalité pour créer des expériences visuelles mémorables.<br>
+            En parallèle, en tant que développeuse web et mobile, je transforme ces concepts en réalité interactive, en utilisant des langages et des technologies modernes.<br> 
+            Mon objectif est de créer des sites et des applications qui non seulement captivent visuellement, mais qui offrent également une expérience utilisateur fluide et intuitive.<br> 
+            Grâce à mon expérience en design graphique, je suis en mesure d'apporter une perspective esthétique et créative à chaque projet, assurant une harmonie parfaite entre le visuel et le fonctionnel.<br>
+            Mon parcours professionnel m'a permis d'acquérir des compétences variées, de la conception de l'interface utilisateur à l'optimisation du code, en passant par la résolution créative de problèmes.<br>
+            Je suis constamment à l'affût des dernières tendances et technologies pour rester à la pointe de mon domaine.<br>
+            En dehors de mon travail, j'aime explorer de nouvelles idées créatives, m'inspirer de diverses sources artistiques et contribuer à des projets innovants qui repoussent les limites de la créativité et de la technologie.</p>
+            
+    </section>
+    </section>
+
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="project" onclick="showProjectDetails(1)">
+            <h3>Projet 1</h3>
+            <p>Description du projet 1...</p>
+        </div>
+        <div class="project" onclick="showProjectDetails(2)">
+            <h3>Projet 2</h3>
+            <p>Description du projet 2...</p>
+        </div>
+        <div class="project" onclick="showProjectDetails(3)">
+            <h3>Projet 3</h3>
+            <p>Description du projet 3...</p>
+        </div>
+        <!-- Ajoutez d'autres projets selon vos besoins -->
+    </section>
+
+    <section id="experience">
+        <h2>Expérience Professionnelle</h2>
+        <div class="job-1">
+            <h3>Titre du Poste</h3>
+            <p>Nom de l'entreprise - Date de début à Date de fin</p>
+            <p>Description des responsabilités et réalisations...</p>
+        </div>
+        <div class="job-2">
+            <h3>Titre du Poste</h3>
+            <p>Nom de l'entreprise - Date de début à Date de fin</p>
+            <p>Description des responsabilités et réalisations...</p>
+        </div>
+        <div class="job-3">
+            <h3>Titre du Poste</h3>
+            <p>Nom de l'entreprise - Date de début à Date de fin</p>
+            <p>Description des responsabilités et réalisations...</p>
+        </div>
+        <div class="job-4">
+            <h3>Titre du Poste</h3>
+            <p>Nom de l'entreprise - Date de début à Date de fin</p>
+            <p>Description des responsabilités et réalisations...</p>
+        </div>
+        <!-- Ajoutez d'autres expériences professionnelles selon vos besoins -->
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>photoshop</li>
+            <li>indesign</li>
+            <li>illustrator</li>
+            <!-- Ajoutez d'autres compétences selon vos besoins -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><a href="mailto:duchene582@gmail.com">duchene582@gmail.com</a></li>
+            <li><a href="tel:+5940694967625">+594 0694967625</a></li>
+        </ul>
+        
+    </section>
+
+    <div id="project-details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProjectDetails()">&times;</span>
+            <h2 id="project-title"></h2>
+            <p id="project-description"></p>
+        </div>
+    </div>
+
+    <script src="../creation portfolio/js/script.js"></script>
+</body>
+</html>
